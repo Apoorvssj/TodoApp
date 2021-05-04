@@ -1,5 +1,6 @@
 {
   "name": "todo-list",
+  "author": "Apoorv Yadav",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
