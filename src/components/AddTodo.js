@@ -139,7 +139,7 @@ const CardShadow = styled(motion.div)`
 
 const Card = styled(motion.div)`
   width: 40%;
-  height: 40vh;
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -165,6 +165,10 @@ const Card = styled(motion.div)`
   @media only screen and (max-width: 720px) {
     width: 70%;
     left: 15%;
+  }
+  @media only screen and (max-height: 760px) {
+    height: 60%;
+    justify-content: space-evenly;
   }
 `;
 

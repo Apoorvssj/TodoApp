@@ -149,10 +149,6 @@ const Content = styled(motion.div)`
   &.Other {
     background-color: #ceeff1;
   }
-  @media only screen and (max-width: 1300px) {
-    /* align-content: space-between; */
-    /* flex-direction: column; */
-  }
 `;
 
 const ABC = styled(motion.div)`
@@ -196,16 +192,9 @@ const Text = styled(motion.div)`
   &.Other {
     color: #1dbec0;
   }
-
-  @media only screen and (max-width: 1300px) {
-    /* max-width: 100%; */
-    /* justify-content: space-between; */
-  }
 `;
 
 const Icons = styled(motion.div)`
-  /* background-color: white; */
-  /* border-radius: 1rem; */
   width: 15%;
   height: 100%;
   display: flex;
@@ -214,9 +203,7 @@ const Icons = styled(motion.div)`
   justify-content: space-between;
   font-size: 1.5rem;
   cursor: pointer;
-  .action {
-    /* width: 100%; */
-  }
+
   .trash {
     margin-left: 0.5rem;
   }

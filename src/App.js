@@ -1,6 +1,5 @@
 import Home from "./pages/Home";
 import { Route } from "react-router-dom";
-import styled from "styled-components";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
