@@ -12,7 +12,6 @@ import styled from "styled-components";
 import { toast } from "react-toastify";
 import Lottie from "lottie-react-web";
 import CheckBox from "../animations/checkBox.json";
-// import CheckBoxWhite from "../animations/checkBoxWhite.json";
 import Trash from "../animations/trash.json";
 
 const ListItem = ({ task, type, id, currentStatus }) => {

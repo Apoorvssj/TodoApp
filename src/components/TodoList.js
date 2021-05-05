@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-// import { useSelector } from "react-redux";
 //styles ans animations
 import { motion } from "framer-motion";
 import { listAnimation } from "../animations";
@@ -9,8 +8,6 @@ import ListItem from "./ListItem";
 import { UserContext } from "../pages/Home";
 
 const TodoList = () => {
-  // const { AllTasks } = useSelector((state) => state.tasks);
-
   //constext api
   const { tasks, status } = useContext(UserContext);
 

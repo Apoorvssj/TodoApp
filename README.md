@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+<div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Todo List App Using Redux Toolkit ,Redux Persist and React
 
-## Available Scripts
+<a href="https://ay-todoapp.vercel.app/"
+ alt="Try the Demo on Vercel!">
+<img src="https://github.com/Apoorvssj/TodoApp/blob/main/screenshot.png"
+  alt="ToDo!">
+</a>
 
-In the project directory, you can run:
+> Before you continue, try the demo: https://ay-todoapp.vercel.app/ <br />
 
-### `npm start`
+> Add a few items to the list.
+> Check-off your todos and navigate the footer to filter for Active/Completed.
+> Try and "break" it! Refresh the page and notice how your todo items
+> are "still there" (_they were saved to `localStorage`!_).
+> Once you have had a "play" with the demo, come back and _build_ it!!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## What?
 
-### `npm test`
+Build a fully functional "Todo List" Application! <br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Building an App using React!
+- [x] UI build using Styled Components!
+- [x] State Management with React Context Api and hooks!
+- [x] Local Storage for Offline Support!
+- [x] Animations made using Famer Motion Api!
+- [x] Animated icons and svg using lottie!
 
-### `npm run build`
+### Todo List?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you are _unfamiliar_ with Todo lists, simply put:
+they are a way of keeping a list of the tasks that need to be done. <br />
+see: https://en.wikipedia.org/wiki/Time_management#Setting_priorities_and_goals
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Todo Lists or "Checklists" are the _best_ way of tracking tasks. <br />
+Atul Gawande wrote a _superb_ book on this subject: <br />
+https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000 <br />
+Or if you don't have time to read,
+watch: https://www.youtube.com/results?search_query=checklist+manifesto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## _Who?_
 
-### `npm run eject`
+This repo is for anyone/everyone who wants
+to see how React Context Api and hooks works
+while viewing a "real world" Todo List Application.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Most beginners with basic and HTML knowledge
+should be able to follow this example without any prior experience.
+With that said, if you feel "stuck" at any point,
+please consult the recommend reading (_and Google_)
+and if you cannot find an answer,
+please open an issue!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## _How?_
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Start by cloning this repository to your `localhost`
+so that you can follow the example/tutorial offline:
 
-## Learn More
+```sh
+git clone https://github.com/Apoorvssj/TodoApp.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install the `devDependencies` so you can run the tests:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+ npm install
+```
 
-### Code Splitting
+Now you have _everything_ you need to start this Todo List !
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+ npm start
+```

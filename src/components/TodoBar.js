@@ -13,8 +13,6 @@ const TodoBar = () => {
   // let arr = [...tasks];
 
   const onClickHandler = (e) => {
-    // arr.forEach((a) => (a.status = !a.status));
-    // setTask(arr);
     setStatus(e.target.value);
   };
 

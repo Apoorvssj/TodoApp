@@ -2,7 +2,6 @@ import styled from "styled-components";
 import React, { useState, useContext } from "react";
 import { motion } from "framer-motion";
 import { useHistory } from "react-router";
-// import { useDispatch } from "react-redux";
 import { UserContext } from "../pages/Home";
 import { toast } from "react-toastify";
 import { hover } from "../animations";
@@ -22,19 +21,16 @@ const data = [
 ];
 
 const AddTodo = () => {
-  //constext api
+  //context api
   const { setTasks } = useContext(UserContext);
 
   //state
   const [inputValue, setTextInputValue] = useState("");
-  // const dispatch = useDispatch();
 
   //select option state
   const [type, setType] = useState("Home");
 
   const history = useHistory();
-
-  // const [data,setData] = useState([]);
 
   //exit AddTodo
   const exitAddTodoHandler = (e) => {
@@ -50,7 +46,6 @@ const AddTodo = () => {
   };
   const submitTask = (e) => {
     e.preventDefault();
-    // dispatch({ type: "SUBMIT", payload: { value: inputValue } });
     let m = [];
     if (localStorage.getItem("tasks")) {
       m = JSON.parse(localStorage.getItem("tasks"));
@@ -67,29 +62,12 @@ const AddTodo = () => {
       status: "Uncomplete",
       uID: new Date().getTime(),
     });
-    setTasks(
-      // ...tasks,
-      // {
-      //   type,
-      //   task: inputValue,
-      //   status: "Uncomplete",
-      // },
-      m
-    );
+    setTasks(m);
     localStorage.setItem("tasks", JSON.stringify(m));
     setTextInputValue("");
     history.push("/");
-    // if (tasks.length > 0) {
-    // }
   };
 
-  // const typeHandler = (e) => {
-  //   console.log(tasks);
-  //   setTasks({
-  //     ...tasks,
-  //     type: e.target.value,
-  //   });
-  // };
   const typeHandler = (e) => {
     setType(e.target.value);
   };
