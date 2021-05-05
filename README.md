@@ -1,6 +1,6 @@
 <div>
 
-# Todo List App Using Redux Toolkit ,Redux Persist and React
+# Todo List App Using Context Api, Hooks in React
 
 <a href="https://ay-todoapp.vercel.app/"
  alt="Try the Demo on Vercel!">
